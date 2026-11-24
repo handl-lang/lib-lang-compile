@@ -1,0 +1,13 @@
+-- lib-lang-compile: the `lang_compile` module — the `compile` meta
+-- function (compile an AST to a target) as a composable
+-- `plugin-lib-*` leaf crate. Transitional layout: the .hnl surface is
+-- `handl-packages/lang_compile/lang_compile.hnl`; the compile engine
+-- stays Rust (ADR-0077 "Special").
+{
+  modules: ["lang_compile"],
+  name: "lang_compile",
+  description: "The compile meta function — compile an AST to a target, returning a compiled-program handle.",
+  license: "MIT",
+  keywords: ["compile", "meta", "ast", "lang", "handl"],
+  homepage: "https://github.com/handl-lang/lib-lang-compile",
+}
