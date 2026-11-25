@@ -5,7 +5,7 @@
 -- stays Rust (ADR-0077 "Special").
 {
   modules: ["lang_compile"],
-  name: "lang_compile",
+  name: "lang-compile",
   description: "The compile meta function — compile an AST to a target, returning a compiled-program handle.",
   license: "MIT",
   keywords: ["compile", "meta", "ast", "lang", "handl"],
