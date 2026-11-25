@@ -3,6 +3,7 @@
 -- `plugin-lib-*` leaf crate. Transitional layout: the .hnl surface is
 -- `handl-packages/lang_compile/lang_compile.hnl`; the compile engine
 -- stays Rust (ADR-0077 "Special").
+-- test_coverage "none": comment-only interface decl — the compile engine stays Rust (ADR-0077).
 {
   modules: ["lang_compile"],
   name: "lang-compile",
@@ -10,4 +11,5 @@
   license: "MIT",
   keywords: ["compile", "meta", "ast", "lang", "handl"],
   homepage: "https://github.com/handl-lang/lib-lang-compile",
+  test_coverage: "none",
 }
